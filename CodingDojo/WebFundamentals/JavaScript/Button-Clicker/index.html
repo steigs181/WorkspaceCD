@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <title>Button Clicker</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="Page_Name">
+                <h1>Dojonary</h1>
+            </div>
+            <div class="Search_bar">
+                <input class="bar" type="text" name="Search" id="Search_bar" placeholder="Search">
+            </div>
+            <div class="Login">
+                <button onclick="clickLogin(this)" class="login-button"><strong>Login</strong></button>
+            </div>
+        </div>
+        <div class="main_body">
+            <div class="box1">
+                    <div class="box1_left">
+                        <div class="descriptor">
+                            <h2 class="main_word">ninja</h2>
+                            <h3><em>noun</em></h1>
+                            <h3>Plural: <em>ninjas</em></h1>
+                        </div>
+                        <div class="box_button">
+                            <button onclick="alert('Ninja was liked')"  class="like_button">Like</button>
+                        </div>
+                    </div>
+                    <div class="box1_right">
+                        <p>A practitioner skilled in the japanese
+                            <a href="#">Japanese</a> art of <a href="#">ninjutsu</a>
+                            </p>
+                    </div>
+            </div>
+            <div class="box2">
+                <div class="box1_left">
+                    <div class="descriptor">
+                        <h2 class="main_word">ninja</h2>
+                        <h3><em>noun</em></h1>
+                        <h3>Plural: <em>ninjas</em></h1>
+                    </div>
+                    <div class="box_button">
+                        <button onclick="alert('Ninja was liked')" class="like_button">Like</button>
+                    </div>
+                </div>
+                <div class="box1_right">
+                    <p> A <a href="#">Programmer</a> who breaks down problems width
+                        <a href="#">zen</a>-like focus
+                        </p>
+                </div>
+            </div> 
+            <div class="box3">
+                <h2>Dojonary is <br> defined by <strong>YOU</strong></h2>
+                <button onclick="hideButton(this)" class="definition_button">Add Definition</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>

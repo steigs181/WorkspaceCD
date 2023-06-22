@@ -1,0 +1,19 @@
+//variables for can they ride app
+
+var rideHeight = 42;
+var rideAge = 10;
+
+//function that checks for the individual to ride
+
+function canTheyRide(rideHeight, rideAge){
+
+//if statement that checks is height and age are good.
+
+    if(rideHeight >= 42 && rideAge >= 10) {
+        console.log("Get on that ride kiddo!");
+    }
+    else {
+        console.log("Sorry kiddo maybe next year.");
+    }
+}
+    canTheyRide(rideHeight,rideAge);

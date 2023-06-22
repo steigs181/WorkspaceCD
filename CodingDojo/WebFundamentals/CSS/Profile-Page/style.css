@@ -1,0 +1,179 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto';
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../font/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    margin: 0px auto;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow: scroll;
+}
+
+.header {
+    height: 70px;
+    width: 100%;
+    margin-bottom: 50px;
+    background-color: black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Profile {
+    color: white;
+}
+
+.main_content {
+    height:80%;
+    margin-right: 40px;
+    display:flex;
+    flex-direction: column;
+}
+
+
+.sidebar {
+    height:600px;
+    width: 300px;
+    border: 2px solid black;
+    display: flex;
+}
+
+.profile_info {
+    height : 400px;
+    width: 560px;
+    margin: 0px auto;
+    border: 3px solid gray;
+    display: flex;
+    flex-direction: column;
+}
+
+.content_header {
+    height: 120px;
+    width: 100%;
+    margin-bottom: 50px;
+    background-color: teal;
+}
+
+.profile_photo {
+    height: 100px;
+    margin-top: 65px;
+    margin-left: 30px;
+    border-radius: 100%;
+}
+
+.content_body {
+    margin-left: 30px;
+}
+
+.profile_name {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.my_location {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.location-ping {
+    height: 25px;
+    margin-right: 10px;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.skills {
+    margin-bottom: 20px;
+}
+
+.edit_profile {
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.edit {
+    font-size: 20px;
+}
+
+.info {
+    height: 300px;
+    width: 100%;
+    margin-top: 20px;
+    border: 2px solid gray;
+    display: flex;
+    flex-direction: column;
+}
+
+.info_header {
+    height: 50px;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color:  black;
+    display: flex;
+    align-items: center;
+}
+
+.education_text {
+    margin: 30px;
+    color: white;
+    font-size: 20px;
+}
+
+.info_body {
+    height: 250px;
+    padding-left:30px;
+    text-align: flex-start;
+    font-size: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.school1 {
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.grad_dates1 {
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.Connection_Req {
+    height:200px;
+    width: 100%;
+    border: 2px solid gray;
+    display: flex;
+    flex-direction: column;
+}
+
+.photo {
+    height: 40px;
+    border-radius: 100%;
+}
+
+.accept_req {
+    height: 30px;
+    margin-right: 40px;
+}
+
+.decline_req {
+    height:30px;
+}
+
+ul {
+    list-style-type: none;
+}

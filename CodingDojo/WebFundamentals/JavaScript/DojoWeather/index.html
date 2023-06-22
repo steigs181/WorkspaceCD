@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap" rel="stylesheet">
+    <title>DojoWeather</title>
+</head>
+<body>
+    <div class="header">
+        <div class="title">
+            <h1>DojoWeather</h1>
+        </div>
+        <div class="navBar-buttons">
+            <a onclick="alert('Loading weather report...')" href="#">Burbank</a>
+            <a onclick="alert('Loading weather report...')" href="#"> Chicago</a>
+            <a onclick="alert('Loading weather report...')" href="#">Dallas</a>
+        </div>
+
+    </div>
+    <div class="main-body">
+        <div class="city">
+            <div class="city-name">
+                <h2>San Jose</h2>
+            </div>
+            <div class="temperature-display">
+                <label for="temperatureUnits">Show temperature in </label>
+                <select onchange="changeTemps(this)" name="temperature" id="temperatureUnits" class="temperature-units">
+                    <option value="celsius">°C</option>
+                    <option value="Fahrenheit">°F</option>
+                </select>
+            </div>
+        </div>
+        <div class="separator">
+            <hr>
+        </div>
+        <div class="daily-forecast">
+            <div class="today">
+                <h2>Today</h2>
+                <img src="assets/some_rain.png" alt="weather photo"> Some rain
+                <div class="highAndLow">
+                    <div class="highForToday">
+                        <p><span class="temp">24</span>°</p>
+                    </div>
+                    <div class="lowForToday">
+                        <p class="temp">18°</p>
+                    </div>
+                </div>
+            </div>
+            <div class="tomorrow">
+                <h2>Tomorrow</h2>
+                <img src="assets/some_sun.png" alt="weather photo"> Some sun
+                <div class="highAndLow">
+                    <div class="highForTomorrow">
+                        <p> <span class="temp">27</span>°</p>
+                    </div>
+                    <div class="lowForTomorrow">
+                        <p class="temp">19°</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="friday">
+                <h2>Friday</h2>
+                <img src="assets/some_clouds.png" alt="weather photo"> Some clouds
+                <div class="highAndLow">
+                    <div class="highForFriday">
+                        <p><span class="temp">21</span>°</p>
+                    </div>
+                    <div class="lowForFriday">
+                        <p class="temp"><span>16</span>°</p>
+                    </div>
+                </div>
+            </div>
+            <div class="saturday">
+                <h2>Saturday</h2>
+                <img src="assets/some_sun.png" alt="weather photo"> Some sun
+                <div class="highAndLow">
+                    <div class="highForSaturday">
+                        <p><span class="temp">26</span>°</p>
+                    </div>
+                    <div class="lowForSaturday">
+                        <p class="temp">21°</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="cookieBox" class="cookie-acceptance">
+            <div class="cookies">
+                <img src="assets/cookie.png" alt="cookies photo">
+            </div>
+            <div class="cookie-body">
+                <h2>Stop! Cookie time</h2>
+                <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to
+                    analyse our traffic. <a href="#">Read more...</a></p>
+            </div>
+            <div class="accept">
+                <button onclick="removeBox()">I Accept</button>
+            </div>
+        </div>
+
+    </div>
+    <div class="footer">
+
+    </div>
+</body>
+</html>

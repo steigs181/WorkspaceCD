@@ -1,0 +1,313 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+.container {
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.header {
+    height: 5rem;
+    width: 100%;
+    margin-bottom: 30px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.col-1 {
+    height: 60rem;
+    width: 30rem;
+    margin-right: 20px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    display:flex;
+    flex:3;
+}
+
+.col-2 {
+    height: 40rem;
+    width: 20rem;
+    display:flex;
+    flex-wrap: wrap;
+    flex:2;
+}
+
+.profile-info {
+    height: 50%;
+    width: 78%;
+    margin-bottom: 40px;
+    border: 2px solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.education {
+    height: 50%;
+    width: 78%;
+    border: 2px solid gray;
+}
+
+.requests {
+    height: 35%;
+    width: 67%;
+    margin-bottom: 40px;
+    border: 2px solid gray;
+}
+
+.My_Connections {
+    height: 60%;
+    width: 67%;
+    border: 3px solid gray;
+    display:flex;
+    flex-direction: column;
+}
+
+.nav-bar {
+    height: 100%;
+    width: 74%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.page_selections {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sign-out {
+    height: 100%;
+    width: 15%;
+}
+
+h1 {
+    color: white
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.sign-out {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.signout_button {
+    height: 30px;
+    width: 120px;
+    font-size: larger;
+    background-color: rgb(54, 142, 219);
+    color: white;
+}
+
+.info_header {
+    height: 30%;
+    width: 100%;
+    background-color: rgb(54, 142, 219);
+}
+
+.profile_photo {
+    height: 80%;
+    margin-top: 13%;
+    margin-left: 7%;
+    border-radius: 100%;
+}
+
+.info_body {
+    height: 70%;
+    width: 100%;
+    margin-left: 7%;
+    margin-top: 6%;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile_name {
+    margin-bottom: 20px;
+}
+
+.location {
+    margin-bottom: 20px;
+}
+
+.skills {
+    margin-bottom: 20px;
+}
+
+.profile_edit {
+    color: blue;
+    font-size: x-large;
+
+}
+
+.gear_edit {
+    margin-right:3%;
+    height: 40%;
+    vertical-align: middle;
+}
+
+.map_marker {
+    height: 30%;
+    margin-right: 2%;;
+}
+
+.profile_name {
+    font-size: 40px;
+}
+
+.location_ping {
+    height: 30px;
+}
+
+.education_header {
+    height: 12%;
+    width: 100%;
+    margin-bottom: 20px;
+    
+    background-color: black;
+    color: white;
+    display: flex;
+    align-content: center;
+}
+
+.education_body {
+    height: 88%;
+    width: 100%;
+    margin-left: 30px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Header_text {
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.grad_dates1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: gray
+}
+
+.connection_header1 {
+    height: 30%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.request_count {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    font-size: 20px;
+    background-color: gray;
+    text-align: center;
+}
+
+.connection_body1 {
+    height: 70%;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 20px;
+
+}
+
+.img {
+    height: 50px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    border-radius: 100%;
+    vertical-align: middle;
+}
+
+.click_profile {
+    height: 70%;
+    width: 80%;
+    color:black;
+    font-size: 25px;
+}
+
+.selection {
+    height: 70%;
+    width: 20%;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.img2 {
+    height: 30px;
+}
+
+.My_header {
+    height: 20%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.request_count2 {
+    height: 30px;
+    width: 65px;
+    margin-right: 5px;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 18px;
+    background-color: gray;;
+    text-align: center;
+}
+
+.People {
+    margin-top: 10px;
+    margin-Left: 10px;
+    font-size: 25px;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.footer {
+    height: 14%;
+    width: 100%;
+    border: 2px solid gray;
+    display:flex;
+    align-self: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_text {
+    color: blue;
+    font-size: 20px;
+    margin-left: 10px;
+    text-decoration: underline;
+}
+

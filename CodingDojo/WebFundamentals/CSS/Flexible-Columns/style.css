@@ -1,0 +1,25 @@
+.row {
+    height: 200px;
+    margin: 10px;
+    background-color: blanchedalmond;
+    display:flex;
+    text-align: center;
+    align-items: center;
+}
+
+.col {
+    flex:1;
+}
+
+.col-1 {
+    margin: 10px;
+    flex:1;
+}
+
+.col-2 {
+    flex:2;
+}
+
+.col-3 {
+    flex:3;
+}

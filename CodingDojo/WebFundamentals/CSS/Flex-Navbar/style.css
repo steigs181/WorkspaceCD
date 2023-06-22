@@ -1,0 +1,45 @@
+.nav{
+    height: 20px;
+    padding: 20px;
+    background-color: rgb(71, 66, 66);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: roboto;
+
+}
+
+.nav-title {
+    color: white;
+}
+
+.nav-links {
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.btn {
+    height: 1.5rem;
+    width: 5rem;
+    padding:1px;
+    color: black;
+    background-color: lightblue;
+    border: .15rem solid black;
+    border-radius: 1%;
+    box-shadow: 2px 3px;
+    font-size: medium;
+}
+
+
+ul a {
+    text-decoration: none;
+    color: white;
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(WorkspaceCD/CodingDojo/WebFundamentals/CSS/Flex-Navbar/Roboto);
+}

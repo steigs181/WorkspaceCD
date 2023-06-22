@@ -1,0 +1,266 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: scroll;
+}
+
+.nav-bar {
+    height: 10%;
+    width: 55%;
+    padding: 2%;
+    background-color: black;
+    display:flex;
+    align-items: center;
+}
+
+h1 {
+    font-size: 40px;
+    color: white;
+}
+
+.main-content {
+    height: 85%;
+    width:55%;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+}
+
+.header2 {
+    flex: .25;
+    margin: 10px;
+    padding-left: 240px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 30px;
+}
+
+.main-content .content-body {
+    flex: 3;
+    display: flex;
+    /* background-color: blue; */
+}
+
+.col-1 {
+    flex: .8;
+    /* background-color: aqua; */
+    display:flex;
+    align-items: flex-start;
+}
+
+.avatar {
+    height: 50%;
+    width: 90%;
+    border: 2px solid black;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.avatar img {
+    height: 100px;
+    width: 100px;
+}
+
+
+
+.col-2 {
+    flex: 2;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.box1 {
+    flex:1;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+}
+
+.box1-header {
+    flex: 2;
+    padding-left: 30px;
+    padding-right: 20px;
+    /* background-color: aqua; */
+    display:flex;
+    justify-content: space-between;
+}
+
+.box1-title {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 20px;
+}
+
+.box1-button {
+    flex:2;
+    padding-right: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 40px;
+    font-size: 25px;
+}
+
+.box1-like-button {
+    height: 50%;
+    width: 20%;
+    padding: 10px;
+    font-size: 15px;
+    background: #ffd866;
+    display: flex;
+    border: 3px solid black;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 4px 4px 5px black;
+    border-radius: 5px;
+}
+
+.box1-body {
+    flex: 3;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+
+.box2 {
+    flex:1;
+    border: 2px solid black;
+    border-radius: 3px;    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+}
+
+.box2-header {
+    flex: 2;
+    padding-left: 30px;
+    padding-right: 20px;
+    /* background-color: aqua; */
+    display:flex;
+    justify-content: space-between;
+}
+
+.box2-title {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 20px;
+}
+
+.box2-button {
+    flex:2;
+    padding-right: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 40px;
+    font-size: 25px;;
+}
+
+.box2-like-button {
+    height: 50%;
+    width: 20%;
+    padding: 10px;
+    font-size: 15px;
+    background: #ffd866;
+    display: flex;
+    border: 3px solid black;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 4px 4px 5px black;
+    border-radius: 5px;
+}
+
+.box2-body {
+    flex: 3;
+    /* background-color: aquamarine; */
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+.box3 {
+    flex:1;
+    border: 2px solid black;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+}
+
+.box3-header {
+    flex: 2;
+    padding-left: 30px;
+    padding-right: 20px;
+    /* background-color: aqua; */
+    display:flex;
+    justify-content: space-between;
+}
+
+.box3-title {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 20px;
+}
+
+.box3-button {
+    flex:2;
+    padding-right: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 40px;
+    font-size: 25px;
+}
+
+.box3-like-button {
+    height: 50%;
+    width: 20%;
+    padding: 10px;
+    font-size: 15px;
+    background: #ffd866;
+    display: flex;
+    border: 3px solid black;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 4px 4px 5px black;
+    border-radius: 5px;
+}
+
+.box3-body {
+    flex: 3;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+.footer {
+    height: 5%;
+    margin-top: 10px;
+    width:100%;
+    border: 3px solid black;
+    background-color: #c1c1c1;
+}
